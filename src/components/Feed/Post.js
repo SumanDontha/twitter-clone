@@ -37,7 +37,7 @@ const Post = ({ displayName, userName, verified, text, image, avatar }) => {
           alt=''
         />
         <div className='post__footer'>
-          <ChatBubbleIcon fontSize='small' />
+          <ChatBubbleIcon fontSize='small' color='gray' />
           <RepeatIcon fontSize='small' />
           <FavoriteBorderIcon fontSize='small' />
           <PublishIcon fontSize='small' />
